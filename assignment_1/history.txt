@@ -1,0 +1,391 @@
+  153  mkdir assignment_1
+  154  mkdir CTA200_2026
+  155  mvdir assignment_1 CITA200_2026
+  156  mv assignment_1 CITA200_2026
+  157  ls
+  158  cd /mnt
+  159  ls
+  160  cd scratch-lustre/
+  161  cd murray
+  162  ls
+  163  find Hello_world
+  164  find Hello_world.c
+  165  find Hello_world.py
+  166  ls
+  167  c drepos
+  168  cd repos
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd scratch-2month/
+  173  ls
+  174  cd ..
+  175  cd scratch-3month/
+  176  ls
+  177  cd ..
+  178  cd src
+  179  ls
+  180  cd ..
+  181  cd test
+  182  ls
+  183  cd ..
+  184  cd tmp
+  185  ls
+  186  cd test
+  187  ls
+  188  cd .. ..
+  189  cd ..
+  190  ls
+  191  cd bin
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd node_scratch/
+  200  ls
+  201  cd murray/
+  202  ls
+  203  ls -a
+  204  cd ..
+  205  ls
+  206  cd ..
+  207  find Hello_world.c
+  208  cd /
+  209  find Hello_world.c
+  210  ls
+  211  cd /mnt
+  212  ls
+  213  cd raid-c
+  214  cd raid-cita/
+  215  ls
+  216  cd murray/
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd ..
+  221  ls
+  222  cd raid-project/
+  223  ls
+  224  cd murray
+  225  ls
+  226  find Hello_world.c
+  227  cd ..
+  228  cd murray-project/
+  229  ls
+  230  cd CTA200H_2024
+  231  ls
+  232  cd ..
+  233  cd repos
+  234  ls
+  235  cd ..
+  236  cd scratch
+  237  ls
+  238  cd ..
+  239  cd Mac
+  240  cd Gizma
+  241  cd Gizmo
+  242  ls
+  243  cd ..
+  244  ls
+  245  vim Hello_world.py
+  246  ls
+  247  cd
+  248  ls
+  249  cd CTA200_2026/
+  250  vim Hello_world.py
+  251  ls
+  252  touch Hello_world.c
+  253  top
+  254  ls
+  255  cd CTA200_2026/
+  256  ls
+  257  vim README.md 
+  258  vi README.md 
+  259  ls
+  260  cd CTA200_2026/
+  261  ls
+  262  nano Hello_world.c
+  263  mv Hello_world.c Hello_world-peng.c
+  264  l
+  265  ls
+  266  mv Hello_world.py Hello_world-peng.pu
+  267  mv Hello_world-peng.py Hello_world-peng.py
+  268  mv Hello_world-peng.pu Hello_world-peng.py
+  269  ls
+  270  gcc Hello_world-peng.c
+  271  ls
+  272  a.out
+  273  a
+  274  gcc a
+  275  gcc ./a
+  276  ./a
+  277  ./a.out
+  278  ls
+  279  ls -a
+  280  gcc Hello_world-peng.c Hello_world.x
+  281  gcc Hello_world-peng.c 
+  282  ls
+  283  ./a.out
+  284  ls
+  285  mv a.out Hello_world.x
+  286  ls
+  287  ls
+  288  cd CTA200
+  289  cd CTA200_
+  290  cd CTA200_2026/
+  291  ls
+  292  cd
+  293  cd CTA200_2026/
+  294  ls
+  295  mkdir assignment_1
+  296  ls
+  297  mv Hello_world-peng.c assignment_1/
+  298  ls
+  299  ls Hello_world-peng.py assignment_1/
+  300  mv Hello_world-peng.py assignment_1/
+  301  ls
+  302  mv README.md assignment_1/
+  303  mv Hello_world.x assignment_1/
+  304  ls
+  305  git remote set-url origin https://github.com/TangentUnhinged/CTA200_2026
+  306  git init
+  307  git remote set-url origin https://github.com/TangentUnhinged/CTA200_2026
+  308  ls
+  309  ls -a
+  310  git remote set-url CTA200_2026 https://github.com/TangentUnhinged/CTA200_2026
+  311  git remote add origin git@github.com/TangentUnhinged/CTA200_2026
+  312  git add README.md
+  313  ls
+  314  cd assignment_1/
+  315  mv README.md ..
+  316  ls
+  317  cd
+  318  ls
+  319  cd CTA200_2026/
+  320  ls
+  321  git add README.md
+  322  git commit -m "first commit, assignment 1"
+  323  git push -u origin main
+  324  git push
+  325  git push --set-upstream origin master
+  326  git remote add origin git@github.com:TangentUnhinged/CTA200_2026
+  327  git remote set origin git@github.com:TangentUnhinged/CTA200_2026
+  328  git remote set-url origin git@github.com:TangentUnhinged/CTA200_2026
+  329  git push
+  330  git push --set-upstream origin master
+  331  https://github.com/TangentUnhinged/CTA200_2026.git
+  332  git remote set-url origin https://github.com/TangentUnhinged/CTA200_2026.git
+  333  git push --set-upstream origin master
+  334  ls
+  335  cd CTA200_2026/
+  336  ls
+  337  cd ass
+  338  cd assignment_1/
+  339  ls
+  340  git add Hello_world-peng.c
+  341  git add Hello_world-peng.py
+  342  ./Hello_world.x output_c.txt
+  343  ls
+  344  ./Hello_world.x > output_c.txt
+  345  ls
+  346  py Hello_world-peng.py > output_py.txt
+  347  python
+  348  python Hello_world-peng.py
+  349  python Hello_world-peng.py > output_py.txt
+  350  ls
+  351  git add output_c.txt 
+  352  git add output_py.txt 
+  353  git commit
+  354  git push
+  355  ls
+  356  cd CTA200_2026/
+  357  ls
+  358  nano README.md 
+  359  cd /mnt
+  360  ls
+  361  pwd
+  362  ls
+  363  ls -a
+  364  cd /
+  365  ls
+  366  cd mnt/
+  367  ls
+  368  d scratch-lustre
+  369  cd scratch-lustre
+  370  exit
+  371  jupyter notebook --port=223 --no-browser
+  372  exit
+  373  jupyter notebook --port=223 --no-browser
+  374  jupyter notebook --port=2235 --no-browser
+  375  /cita/local/bin/passwd
+  376  /cita/local/bin/passwd 
+  377  cd /cita/local/bin/
+  378  ls
+  379  cd /cita/local/bin/passwd 
+  380  /cita/local/bin/passwd 
+  381  cd
+  382  ls
+  383  pwd
+  384  module load python/3.10.2 
+  385  jupyter notebook --port=2235 --no-browser
+  386  exit
+  387  jupyter notebook --port=2235 --no-browser
+  388  module load python/3.10.2 
+  389  jupyter notebook --port=2235 --no-browser
+  390  /cita/local/bin/psswd
+  391  /cita/local/bin/passwd 
+  392  exit
+  393  /cita/local/bin/passwd 
+  394  exit
+  395  module load python/3.10.2 
+  396  jupyter notebook --port=2235 --no-browser
+  397  module load python/3.10.2 
+  398  pip install --upgrade pip
+  399  pip install unitest
+  400  pip install unittest
+  401  cd CTA200_2026/
+  402  ;s
+  403  ls
+  404  cd assignment_1
+  405  ls
+  406  py Hello_world-peng.py > output_py.txt
+  407  python Hello_world-peng.py > output_py.txt
+  408  gcc -o Hello_world.x Hello_world.c
+  409  gcc -o Hello_world.x Hello_world-peng.c
+  410  ./Hello_world.x > output_c.txt 
+  411  nano output_c.txt 
+  412  cd ..
+  413  git add assignment_1
+  414  git add assignment_2
+  415  git commit -m "Updated lines from assignment 1 and added code for assignment 2"
+  416  git push
+  417  git pull
+  418  module load python/3.10.2 
+  419  cd /
+  420  ls
+  421  cd mnt
+  422  ls
+  423  cd scratch-lustre/
+  424  ls
+  425  cd murray/
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd ..
+  430  ls
+  431  locate Hello_world.c
+  432  find Hello_world.c
+  433  find Hello_world.py
+  434  cd scratch-lustre/
+  435  find Hello_world.py
+  436  find Hello_world.c
+  437  find . Hello_world.c
+  438  cd mu
+  439  cd murray/
+  440  find . Hello_world.c
+  441  find . -iname Hello_world.c
+  442  find . -iname Hello_world.c*
+  443  find . Hello_world.c
+  444  find . Hello_world.py
+  445  cd ..
+  446  find . Hello_world.c
+  447  cd murray/
+  448  ls
+  449  find . Hello_world.c
+  450  find . Hello_world.py
+  451  ls
+  452  pwd
+  453  ls
+  454  cd
+  455  cd /
+  456  ls
+  457  cd media/
+  458  ls
+  459  cd ..
+  460  cd cita/
+  461  ls
+  462  cd home/
+  463  ls
+  464  cd murray/
+  465  ls
+  466  find . Hello_world.py
+  467  ls
+  468  pwd
+  469  cd tmp/
+  470  ls
+  471  nano Hello_world.py 
+  472  cd CTA200H/
+  473  ls
+  474  find . Hello_world.c
+  475  cd ..
+  476  ls
+  477  find . Hello_world.py
+  478  find . Hello_world.c
+  479  ls
+  480  cd ..
+  481  ls
+  482  find . Hello_world.c
+  483  history
+  484  cd 
+  485  ls
+  486  history > history.txt
+  487  ls
+  488  nano history.txt
+  489  history
+  490  mv history.txt CTA200_2026/assignment_1
+  491  ls
+  492  cd CTA200
+  493  cd CTA200_2026/
+  494  ls
+  495  cd assignment_
+  496* 
+  497  cd assignment_1
+  498  ls
+  499  cd ..
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd murray/
+  506  ls
+  507  fd Hello_world.py
+  508  cd 'untitled folder'/
+  509  ls
+  510  cd ..
+  511  cd Do
+  512  cd Download/
+  513  ls
+  514  cd ..
+  515  cd Documents/
+  516  ls
+  517  cd ..
+  518  find . -name "Hello_world.c" 2>/dev/null
+  519  cd Papers
+  520  ls
+  521  cd tmp/
+  522  ls
+  523  nano Hello_world.
+  524  nano Hello_world.c
+  525  cp Hello_world.c ../../../zpeng/CTA200_2026/assignment_1
+  526  cp Hello_world.c ../../../zpeng/CTA200_2026/assignment_1/
+  527  cp Hello_world.c ../../../zpeng/CTA200_2026/assignment_1/Hello_world.c
+  528  cp Hello_world.c /home/zpeng/CTA200_2026/assignment_1
+  529  ls
+  530  cd 
+  531  ls
+  532  cd CTA200_2026/assignment_1
+  533  ls
+  534  nano Hello_world-peng.c
+  535  nano Hello_world.c
+  536  gcc Hello_world-peng.c Hello_world.x
+  537  gcc Hello_world-peng.c -o Hello_world.x
+  538  ./Hello_world.x > output_c.txt 
+  539  ls
+  540  nano output_c.txt 
+  541  # Python file from murray was the same as the one "recreated" and thus left unchanged 
+  542  history > history.txt
+Note: First few lines were removed due to irrelevance
